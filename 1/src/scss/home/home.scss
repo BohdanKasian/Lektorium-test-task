@@ -1,0 +1,27 @@
+.cubes_row {
+  justify-content: space-around;
+  margin-bottom: 6px;
+  height: 100%;
+  max-height: 100px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.cubes-item {
+  width: 30%;
+  height: 100%;
+  border: 3px solid $dark;
+  border-radius: 8px;
+  align-items: center;
+  padding: 10px 15px;
+  &_dot {
+    width: 25%;
+    height: 100%;
+    border-radius: 100%;
+    background: $dark;
+  }
+  &_row {
+    width: 100%;
+    height: 23%;
+  }
+}
